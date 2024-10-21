@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //nullish coellisong(??)//short circuit operator 
+        //it will operate when the value is null or undefined 
+        
+        // let a
+        // let num=a??"50"
+        // console.log(num)   //o/p==50
+        //or//
+        // let a=52
+        // let num=a??"50"
+        // console.log(num)    //o/p==52
+
+
+        function add(a,b){
+            b=b??0
+            return a+b
+        }
+        console.log(add(2,5))
+
+
+
+
+    </script>
+</body>
+</html>
